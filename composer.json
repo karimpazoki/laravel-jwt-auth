@@ -17,6 +17,13 @@
             "Kaafochino\\LaravelJwtAuth\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaafochino\\LaravelJwtAuth\\LaravelJwtAuthServiceProvider"
+            ]
+        }
+    },
     "require-dev": {
         "orchestra/testbench": "^6.24",
         "phpunit/phpunit": "^9.5"
