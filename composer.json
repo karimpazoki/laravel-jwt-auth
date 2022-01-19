@@ -1,0 +1,24 @@
+{
+    "name": "kaafochino/laravel-jwt-auth",
+    "description": "JWT Authentication for Laravel using firebase/php-jwt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Karim Pazoki",
+            "email": "pazoki.karim72@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "firebase/php-jwt": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaafochino\\LaravelJwtAuth\\": "src"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.24",
+        "phpunit/phpunit": "^9.5"
+    }
+}
